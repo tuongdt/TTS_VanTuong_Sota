@@ -45,6 +45,7 @@ body.nav-fixed .banner {
   background-color: white;
   border-bottom: 1px solid #ccc;
   height: 88px;
+  box-sizing: border-box;
 }
 .nav-bar.fixed {
   position: fixed;
@@ -216,7 +217,6 @@ nav ul li a.active {
 }
 
 .products {
-  gap: 15px;
   flex-wrap: wrap;
   margin-top: 10px;
   display: flex;
@@ -233,7 +233,7 @@ nav ul li a.active {
 }
 
 .product {
-  width: 30%;
+  width: 32%;
   background: #fff;
   border-radius: 8px;
   box-sizing: border-box;
@@ -1217,4 +1217,227 @@ form textarea {
 }
 .list-video .videos .video{
   margin-top: 20px;
+}
+
+/* news page */
+.container-news{
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.main-content {
+  width: 70%;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+.post-item {
+  background: #fff;
+  padding: 0 0 0 10px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.post-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  /* margin-top: 0px; */
+  /* border-radius: 4px; */
+}
+
+.post-item h3 {
+  font-size: 15px;
+  margin: 8px 0 10px;
+  line-height: 1.5;
+
+}
+.post-item a{
+  text-decoration: none;
+  color: #000000;
+}
+.post-item a:hover{
+  color: red;
+}
+.post-item p {
+  font-size: 15px;
+  color: #595959;
+}
+.post-item p:hover {
+  color: black;
+  cursor: pointer;
+}
+.pagination {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  /* margin-left: 100px; */
+}
+
+.page-btn {
+  background-color: #fff;
+  border: 1px solid #595959;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  font-size: 17px;
+  font-weight: bolder;
+  border: 1px solid;
+  margin-right: 5px;
+  color: #595959;
+}
+
+.page-btn:hover,
+.page-btn.active {
+  background-color: #254391;
+  color: #fff;
+  border-color: #254391;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 20%;
+  background-color: #fff;
+  margin-right: 30px;
+  border: 1px solid #ebe3e3;
+  height: fit-content;
+  margin-top: 20px;
+}
+.sidebar .ip-sidebar{
+  display: flex;
+  align-items: center;
+  margin: 10px 10px 20px 10px;
+}
+.sidebar .ip-sidebar input{
+  width: 100%;
+  height: 40px;
+  box-shadow: 0 0 2px #999;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+input[type="text"] {
+  padding-left: 12px; /* hoặc giá trị bạn muốn, ví dụ: 16px, 20px */
+  font-size: 15px;
+}
+.sidebar .ip-sidebar button{
+  width: 50px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  
+}
+.sidebar .ip-sidebar i{
+  font-size: 20px;
+}
+
+
+.sidebar h4 {
+  font-size: 16px;
+  margin-left: 10px;
+  color: #595959;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  padding: 8px 0;
+  font-size: 16px;
+  border-bottom: 2px solid #eee;
+} 
+
+.img-tourism {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.img-tourism img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-top: 25px;
+  /* border-radius: 4px; */
+}
+
+.sale-tourism {
+  position: absolute;
+  background-color: #254391;
+  color: white;
+  top: 45px;
+  left: 0;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sale-tourism .text-date-post{
+  font-size: 16px;
+}
+.sale-tourism .text-month-post{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sidebar-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item li {
+  display: flex;
+  gap: 10px;
+  margin: 10px 10px 20px 10px;
+
+}
+.sidebar-item a{
+  text-decoration: none;
+  color: black;
+}
+.sidebar-item a:hover{
+  color: #e20000;
+}
+
+.sidebar-item li img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.tintuc-title {
+  width: 100%;
+  background-color: #808080; /* Changed to gray */
+  height: 75px;
+  display: flex;
+  justify-content: space-between; /* Align items to the left */
+  align-items: center;
+  padding-left: 20px; /* Add some left padding for spacing */
+}
+
+.tintuc-title .sesion-tintuc {
+  max-width: 1200px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white; /* Set text color to white */
+  flex: 1;
+  margin: 0 auto;
+  padding-left: 20px;
+  
 }
