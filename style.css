@@ -1511,7 +1511,7 @@ input[type="text"] {
   .nav-bar {
     justify-content: space-between;
     gap: 20px;
-    padding: 30px;
+    padding: 20px;
   }
   .nav-bar-pc {
     display: none; 
