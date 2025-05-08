@@ -812,6 +812,8 @@ nav ul li a.active {
   background-size: cover;
   background-position: center;
   height: 230px;
+  padding: 0;
+  margin: 0;
 }
 /* Container chính */
 .main-about {
@@ -1067,6 +1069,8 @@ form textarea {
   background-image: url(image/banner-phuc-loi-viet-2048x252.jpg);
   background-size: cover;
   height: 180px;
+  padding: 0;
+  margin: 0;
 }
 .contact-section {
   display: flex;
