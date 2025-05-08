@@ -1934,7 +1934,7 @@ input[type="text"] {
   /* news */
   .container-news {
     flex-direction: column;
-    padding: 0 12px 0 0;
+    margin: 0 10px 0 4px;
   }
   .main-content,
   .sidebar {
