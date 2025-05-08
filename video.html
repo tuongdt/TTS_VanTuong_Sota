@@ -24,18 +24,38 @@
         <div class="logo">
           <img src="image/logo.png" alt="Phúc Lợi Việt" />
         </div>
-        <nav>
+        <nav class="nav-bar-pc">
           <ul>
-            <li><a href="index.html">TRANG CHỦ</a></li>
+            <li><a href="index.html" class="active">TRANG CHỦ</a></li>
             <li><a href="about.html">GIỚI THIỆU</a></li>
             <li><a href="#">SẢN PHẨM</a></li>
-            <li><a href="video.html"  class="active">VIDEO</a></li>
-            <li><a href="#">TIN TỨC</a></li>
+            <li><a href="video.html">VIDEO</a></li>
+            <li><a href="news.html">TIN TỨC</a></li>
             <li><a href="contact.html">LIÊN HỆ</a></li>
-            <li class="search-box">
+            <li>
               <a href="#"><i class="fas fa-search"></i></a>
-              <input type="text" placeholder="Tìm kiếm..." />
-            </li>            
+            </li>
+          </ul>
+        </nav>
+
+        <label for="nav-mobile-input" class="nav-bar-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+        </label>
+        <input type="checkbox" hidden ="" class="nav__input" id="nav-mobile-input">
+
+        <label for="nav-mobile-input" class="nav-overlay">
+        </label>
+        <nav class="nav__mobile">
+          <label for="nav-mobile-input" class="nav__mobile-close">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+          </label>
+          <ul class="nav__mobile-list">
+            <li><a href="index.html" class="nav__mobile-link">TRANG CHỦ</a></li>
+            <li><a href="about.html" class="nav__mobile-link">GIỚI THIỆU</a></li>
+            <li><a href="#" class="nav__mobile-link">SẢN PHẨM</a></li>
+            <li><a href="video.html" class="nav__mobile-link active">VIDEO</a></li>
+            <li><a href="news.html" class="nav__mobile-link">TIN TỨC</a></li>
+            <li><a href="contact.html" class="nav__mobile-link">LIÊN HỆ</a></li>
           </ul>
         </nav>
       </div>
