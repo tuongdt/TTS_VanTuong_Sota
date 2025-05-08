@@ -1319,7 +1319,7 @@ form textarea {
   z-index: 1;
 }
 input[type="text"] {
-  padding-left: 12px; /* hoặc giá trị bạn muốn, ví dụ: 16px, 20px */
+  padding-left: 12px; 
   font-size: 15px;
 }
 .sidebar .ip-sidebar button {
@@ -1412,26 +1412,25 @@ input[type="text"] {
 
 .tintuc-title {
   width: 100%;
-  background-color: #808080; /* Changed to gray */
+  background-color: #808080; 
   height: 75px;
   display: flex;
-  justify-content: space-between; /* Align items to the left */
+  justify-content: space-between;
   align-items: center;
-  padding-left: 20px; /* Add some left padding for spacing */
+  padding-left: 20px; 
 }
 
 .tintuc-title .sesion-tintuc {
   max-width: 1200px;
   font-size: 30px;
   font-weight: bolder;
-  color: white; /* Set text color to white */
+  color: white; 
   flex: 1;
   margin: 0 auto;
   padding-left: 20px;
 }
 
-/* respon */
-/* Responsive navbar */
+/* Na-bar trên đt ipad và pc */
 .nav-bar-btn {
   width: 30px;
   height: 30px;
@@ -1504,27 +1503,26 @@ input[type="text"] {
   }
 }
 
+
+
+/* Responsive */
 @media (max-width: 1023px) {
   .nav-bar {
     justify-content: space-between;
     gap: 20px;
     padding: 10px;
   }
-
   .nav-bar-pc {
     display: none; 
   }
-
   .nav-bar-btn {
     display: block;
   }
-
   .top-bar {
     flex-direction: column;
     gap: 5px;
     height: auto;
   }
-
   .top-links {
     text-align: center;
   }
@@ -1540,18 +1538,15 @@ input[type="text"] {
     flex-direction: column;
     padding: 0 15px;
   }
-
   .featured-products,
   .latest-projects {
     width: 100%;
   }
-
   .products {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
   }
-
   .product {
     width: 48%;
     height: auto;
@@ -1566,7 +1561,6 @@ input[type="text"] {
     margin: 0 auto;
     justify-content: center;
   }
-
   .teamdeco img {
     width: 100%;
     height: auto;
@@ -1584,37 +1578,32 @@ input[type="text"] {
     align-items: flex-start;
     padding: 0 20px;
   }
-
   .img-content {
     width: 100%;
     margin: 0 0 20px 0;
   }
-
   .img-content img {
     width: 100%;
     height: auto;
   }
-
   .lydo-conten {
     width: 100%;
   }
-
   .features-list {
     flex-direction: column;
     gap: 20px;
   }
-
   .features-list-content {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
   .features-list-content .list {
     width: 48%;
     gap: 10px;
   }
+
   /* footer */
   .footer-container {
     display: flex;
@@ -1622,30 +1611,24 @@ input[type="text"] {
     justify-content: space-between;
     gap: 20px;
   }
-
   .footer-box1 {
     flex: 1;
     min-width: 300px;
-    /* Các giá trị padding và border-right vẫn giữ nguyên */
   }
 
   /* news */
   .services {
     padding: 20px 15px 80px 15px;
   }
-
   .section-title {
     font-size: 16px;
   }
-
   .service-item h3 {
     font-size: 16px;
   }
-
   .service-item p {
     font-size: 14px;
   }
-
   .service-item img {
     height: 150px;
   }
@@ -1655,24 +1638,20 @@ input[type="text"] {
     flex-direction: column;
     padding: 30px 16px;
   }
-
   .contact-left,
   .contact-right {
     flex: none;
     width: 100%;
     margin-bottom: 20px;
   }
-
   .info-item {
     font-size: 14px;
   }
-
   .contact-right form input,
   .contact-right form textarea {
     padding: 8px;
     margin-bottom: 12px;
   }
-
   .contact-right form button {
     padding: 10px 18px;
     font-size: 14px;
@@ -1684,14 +1663,12 @@ input[type="text"] {
     margin: 20px auto;
     padding-top: 30px;
   }
-  
   .main-video p {
     font-size: 40px;
     text-align: center;
     color: white;
     padding-top: 5px;
   }
-  
   .content-video {
     width: 100%;
     height: 181px;
@@ -1703,7 +1680,6 @@ input[type="text"] {
     gap: 90px;
     box-sizing: border-box;
   }
-  
   .content-video .icon-video-contac a {
     text-decoration: none;
     color: white;
@@ -1713,7 +1689,6 @@ input[type="text"] {
     text-align: center;
     padding-bottom: 10px;
   }
-  
   .content-video .icon-video-contac a .fa-facebook-f,
   .content-video .icon-video-contac a .fa-twitter,
   .content-video .icon-video-contac a .fa-envelope,
@@ -1724,31 +1699,27 @@ input[type="text"] {
     line-height: 35px;
     border-radius: 50%;
   }
-  
   .list-video {
     display: flex;
-    justify-content: center; /* Để căn giữa */
+    justify-content: center; 
     align-items: center;
     gap: 20px;
     margin-top: 20px;
     padding-bottom: 50px;
-    flex-wrap: wrap; /* Cho phép các phần tử quay về dòng mới khi cần */
+    flex-wrap: wrap; 
   }
-  
   .list-video .videos {
     display: flex;
     gap: 20px;
     justify-content: center;
-    flex-wrap: wrap; /* Đảm bảo các video không bị tràn ra ngoài */
+    flex-wrap: wrap; 
   }
-  
   .list-video .video {
     margin-top: 20px;
   }
-  
   .list-video .video iframe {
     width: 100%;
-    max-width: 560px; /* Đảm bảo video không rộng hơn kích thước tối đa */
+    max-width: 560px; 
     height: 315px;
   }
 
@@ -1756,11 +1727,9 @@ input[type="text"] {
    .services {
     padding: 20px;
   }
-
   .section-title {
     font-size: 16px;
   }
-
   .service-item h3 {
     font-size: 16px;
   }
@@ -1770,40 +1739,34 @@ input[type="text"] {
   }
 }
 
-/* Mobile (<= 767px) */
+/* Mobile */
 @media (max-width: 767px) {
   /* container */
   .container {
     flex-direction: column;
     padding: 0 10px;
   }
-
   .featured-products,
   .latest-projects {
     width: 100%;
     padding: 15px;
   }
-
   .products {
     flex-direction: column;
     gap: 20px;
   }
-
   .product {
     width: 100%;
     height: auto;
   }
-
   .latest-projects li {
     flex-direction: column;
     align-items: flex-start;
   }
-
   .latest-projects li img {
     width: 100%;
     height: auto;
   }
-
   .latest-projects h4 {
     margin-top: 5px;
   }
@@ -1817,7 +1780,6 @@ input[type="text"] {
     margin: 0 auto;
     justify-content: center;
   }
-
   .teamdeco img {
     width: 100%;
     height: auto;
@@ -1827,20 +1789,16 @@ input[type="text"] {
   .lydo-conten h2 {
     font-size: 16px;
   }
-
   .features-list-content .list {
     width: 100%;
   }
-
   .features-list-content .list img {
     width: 25px;
     height: 25px;
   }
-
   .red-color i {
     font-size: 18px;
   }
-
   .lydo-conten p {
     font-size: 14px;
   }
@@ -1850,51 +1808,41 @@ input[type="text"] {
     flex-direction: column;
     padding: 0 15px;
   }
-
   .news-grid {
     width: 100%;
     height: auto;
     padding: 15px;
   }
-
   .formlh {
     width: 100%;
     height: auto;
     margin-top: 20px;
   }
-
   .list-news {
     gap: 20px;
   }
-
   .news {
     flex-direction: column;
     gap: 25px;
   }
-
   .new {
     flex-direction: column;
     width: 100%;
     align-items: flex-start;
   }
-
   .new .img-new img {
     width: 100%;
     height: auto;
   }
-
   .new-content {
     width: 100%;
   }
-
   .new h3 {
     font-size: 17px;
   }
-
   .new p {
     font-size: 14px;
   }
-
   .formlh form button {
     width: 100%;
   }
@@ -1904,11 +1852,11 @@ input[type="text"] {
     flex-direction: column;
     height: auto;
   }
-
   .footer-box {
     border-right: none !important;
     padding: 20px 10px;
   }
+
   /* banner */
   #banner {
     height: 300px; 
@@ -1920,77 +1868,65 @@ input[type="text"] {
   .nav__mobile{
     z-index: 10;
   }
-
   #banner button {
-    font-size: 20px; /* Giảm kích thước nút */
-    padding: 8px; /* Giảm padding */
+    font-size: 20px; 
+    padding: 8px;
     z-index: 1;
   }
-
   #banner .prev, #banner .next {
-    font-size: 35px; /* Kích thước nút mũi tên */
+    font-size: 35px; 
   }
 
   /* about */
   .tab-navigation {
-    flex-direction: column; /* Các button sẽ hiển thị theo chiều dọc */
-    gap: 20px; /* Thêm khoảng cách giữa các button */
-    justify-content: center; /* Căn giữa theo chiều ngang */
-    align-items: center; /* Căn giữa theo chiều dọc */
-    padding: 0 10px; /* Thêm padding nếu cần để căn chỉnh đẹp */
+    flex-direction: column; 
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 10px; 
   }
-
   .button-about {
-    width: 100%; /* Các button chiếm toàn bộ chiều rộng */
-    text-align: center; /* Căn giữa chữ trong button */
+    width: 100%; 
+    text-align: center; 
   }
-
   .button-about button {
-    width: 100%; /* Mỗi button chiếm toàn bộ chiều rộng của div chứa */
-    padding: 10px; /* Thêm padding cho nút để dễ nhấn */
-    font-size: 16px; /* Giảm font size để dễ nhìn */
-    border: 2px solid red; /* Giữ border để dễ phân biệt */
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid red; 
     background-color: #fff;
     color: red;
     border-radius: 5px;
     cursor: pointer;
   }
-
   .button-about button:hover {
     background-color: red;
     color: white;
   }
-
   .col-inner {
-    padding: 0 10px; /* Đảm bảo khoảng cách đẹp khi trên điện thoại */
-    font-size: 14px; /* Giảm font-size cho nội dung */
+    padding: 0 10px; 
+    font-size: 14px; 
   }
-
   .col-inner span {
-    font-size: 22px; /* Giảm kích thước tiêu đề */
+    font-size: 22px;
   }
-
   .col-inner p {
-    font-size: 14px; /* Giảm kích thước nội dung */
+    font-size: 14px; 
   }
-
   .about-image {
-    width: 100%; /* Hình ảnh chiếm 100% chiều rộng */
-    height: auto; /* Đảm bảo tỷ lệ hình ảnh không bị sai */
-    margin: 20px 0; /* Điều chỉnh margin nếu cần */
+    width: 100%; 
+    height: auto; 
+    margin: 20px 0; 
   }
-
   .contnet-about-sesion {
-    width: 100%; /* Các phần nội dung chiếm toàn bộ chiều rộng */
+    width: 100%; 
     padding: 10px;
   }
-
   .contnet-about-sesion .section-title {
-    font-size: 16px; /* Giảm kích thước tiêu đề */
+    font-size: 16px;
   }
-
   .contnet-about-sesion .section-text {
-    font-size: 14px; /* Giảm kích thước nội dung */
+    font-size: 14px; 
     line-height: 1.6;
   }
 
@@ -1999,65 +1935,52 @@ input[type="text"] {
     flex-direction: column;
     padding: 0 10px;
   }
-
   .main-content,
   .sidebar {
     width: 100%;
     margin: 0;
   }
-
   .posts-grid {
     grid-template-columns: 1fr;
     gap: 15px;
   }
-
   .post-item img {
     height: 130px;
   }
-
   .pagination {
     gap: 3px;
   }
-
   .page-btn {
     width: 30px;
     height: 30px;
     font-size: 15px;
   }
-
   .sidebar .ip-sidebar {
     flex-direction: column;
   }
-
   .sidebar .ip-sidebar input,
   .sidebar .ip-sidebar button {
     width: 100%;
     margin-bottom: 10px;
   }
-
   .sidebar-item li {
     flex-direction: row;
     align-items: center;
   }
-
   .img-tourism,
   .img-tourism img {
     height: 120px;
   }
-
   .sale-tourism {
     padding: 4px;
     top: 35px;
   }
-
   .sale-tourism .text-date-post {
     font-size: 14px;
   }
-
   .sale-tourism .text-month-post {
     font-size: 13px;
   }
-
   .tintuc-title .sesion-tintuc {
     font-size: 22px;
   }
@@ -2066,21 +1989,17 @@ input[type="text"] {
   .contact-left h2 {
     font-size: 20px;
   }
-
   .contact-left p {
     font-size: 14px;
   }
-
   .info-item i {
     font-size: 25px;
   }
-
   .contact-right form input,
   .contact-right form textarea {
     padding: 8px;
     font-size: 14px;
   }
-
   .contact-right form button {
     font-size: 14px;
   }
@@ -2090,21 +2009,17 @@ input[type="text"] {
   .contact-left h2 {
     font-size: 18px;
   }
-
   .contact-left p {
     font-size: 13px;
   }
-
   .contact-right p {
     font-size: 14px;
   }
-
   .contact-right form input,
   .contact-right form textarea {
     padding: 8px;
     font-size: 14px;
   }
-
   .contact-right form button {
     font-size: 14px;
     padding: 10px;
@@ -2114,21 +2029,19 @@ input[type="text"] {
   .main-video p {
     font-size: 24px;
   }
-
   .content-video {
     gap: 30px;
   }
-
   .list-video .videos {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
-
   .list-video .video iframe {
     height: 180px;
   }
 
+  /* banner */
   #banner {
     width: 100%;
     height: 180px; 
@@ -2140,14 +2053,12 @@ input[type="text"] {
   .nav__mobile{
     z-index: 10;
   }
-
   #banner button {
-    font-size: 20px; /* Giảm kích thước nút */
-    padding: 8px; /* Giảm padding */
+    font-size: 20px;
+    padding: 8px; 
     z-index: 1;
   }
-
   #banner .prev, #banner .next {
-    font-size: 35px; /* Kích thước nút mũi tên */
+    font-size: 35px; 
   }
 }
