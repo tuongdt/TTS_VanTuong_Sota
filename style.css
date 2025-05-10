@@ -382,6 +382,7 @@ nav ul li a.active {
 
 .teamdeco {
   width: 300px;
+  padding: 0;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
